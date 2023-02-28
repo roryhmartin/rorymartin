@@ -1,0 +1,15 @@
+{
+  "name": "rorymartin",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">My Homepage Portfolio & CV</h1> <p align=\"center\">A page to share my projects, contributions and achievements </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
