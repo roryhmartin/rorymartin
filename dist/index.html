@@ -1,13 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Rory Martin | Web Developer</title>
     <meta charset="UTF-8">
+    <meta name="description" content="I am a web developer available for hire. Javascript, PHP, Tailwind and more.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
     <link rel="stylesheet" href="output.css">
 </head>
-<body>
-    <h1 class="bg-pink-400">Hello World</h1>
+<body class="bg-brand-dark text-white text-sm ">
+    <!-- <div class="flex justify-center z-50 w-full">
+        <nav class="flex items-center  max-w-xl flex-wrap p-6 md:bg-transparent w-full ">
+
+            
+            <div class="md:hidden flex items-center">
+                mobile thing goes here
+            </div>
+            
+            <div id="nav-mobile" class="hidden w-full flex-grow lg:flex lg:items-center lg:w-auto">
+                <div class="md:flex text-sm md:flex-grow  md: justify-between md:border-b-2 md:border-brand-green">
+
+                    <a href="#organisations" class="block mt-4 lg:inline-block lg:mt-0 text-center no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase md:mr-4">Organisations & Open Source</a>
+                    
+                    <a href="#projects" class="block mt-4 lg:inline-block lg:mt-0 text-center no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase md:mr-4">Projects</a>
+                    
+                    <a href="#work" class="block mt-4 lg:inline-block lg:mt-0 text-center no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase md:mr-4">Work</a>
+                    
+                    <a href="#education" class="block mt-4 lg:inline-block lg:mt-0 text-center no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase"> Education </a>
+                </div>
+            </div>
+        </nav>
+    </div> -->
+
+    <!-- navbar goes here  -->
+<nav class="py-0 md:py-4">
+    <div class="max-w-6xl mx-auto px-8 z-50">
+        <div class="flex justify-between">
+
+           <div class="flex">
+                <!-- logo -->
+                <div class="">
+                    <a  href="#" class="flex items-center mr-4 pt-5 px-2 o-underline font-mono font-semibold uppercase ">
+                        <img class="h-6 w-7 mr-7" src="/img/RM.png" alt="" srcset="">
+                        <!-- <span>Rory Martin</span> -->
+                    </a>
+                </div>
+            </div>
+            
+            
+                <!-- primary nav -->
+                <div class="hidden md:flex mb-0 pb-0  items-center space-x-1 md:border-b-2 md:border-brand-purple">
+                    <a href="#" class="block lg:inline-block md:mt-0 pt-5 px-3 no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase">
+                        <span class="text-brand-green ">01.</span>Organisations 
+                    </a>
+                    <a href="#" class="pt-5 px-3 no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase">
+                        <span class="text-brand-green">02.</span>Projects
+                    </a>
+                    <a href="#" class="pt-5 px-3 no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase">
+                        <span class="text-brand-green">03.</span>Education
+                    </a>
+                    <a href="#" class="block pt-5 px-3 no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase">
+                        <span class="text-brand-green">04.</span>Work
+                    </a>
+                </div>
+            
+               <!-- mobile button goes here -->
+               <div class="md:hidden flex item-center">
+                <button class="mobile-menu-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg>
+                </button>
+               </div>
+
+        
+    </div>
+
+    <!-- mobile menu -->
+    <div class="mobile-menu hidden md:hidden bg-brand-light ">
+        <div class="flex flex-col text-center uppercase w-full divide-y divide-brand-purple">
+            <a href="" class="block py-6 px-4 hover:bg-brand-powderBlue no-underline font-mono font-semibold text-xl "><span class="text-brand-green ">01.</span>Organisations </a>
+            <a href="" class="block py-6 px-4 hover:bg-brand-powderBlue no-underline font-mono font-semibold text-xl "><span class="text-brand-green">02.</span>Projects</a>
+            <a href="" class="block py-6 px-4 hover:bg-brand-powderBlue no-underline font-mono font-semibold text-xl "><span class="text-brand-green">03.</span>Education</a>
+            <a href="" class="block py-6 px-4 hover:bg-brand-powderBlue no-underline font-mono font-semibold text-xl "><span class="text-brand-green">04.</span>Work</a>
+        </div>
+    </div>
+    
+</nav>
+    
+<script src="index.js"></script>
 </body>
 </html>
