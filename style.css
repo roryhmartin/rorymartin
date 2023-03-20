@@ -65,9 +65,14 @@ img {
 .person-img {
     position: absolute;
     z-index: 2;
-    bottom: -10;
     transform: scale(1.2);
     transition: transform calc(var(--transform-speed) * 1.2) ease;
+}
+
+@media screen and (max-width: 600px) {
+    .person-img {
+        bottom: -100px;
+    }
 }
 
 .person-container:hover .person-img {
