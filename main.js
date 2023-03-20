@@ -27,18 +27,22 @@ if (hours < 12) {
 greeting.innerHTML = welcomeText + ", my name is";
 
 // Hide & Show Panels
-function toggle(el) {
-    const cont = el.parentNode.nextElementSibling;
-    const chevronDown = el.firstElementChild;
-    const chevronUp = el.lastElementChild;
 
-    if (cont.classList.contains("block")) {
-        cont.classList.replace("block", "hidden");
-        chevronUp.classList.add("hidden");
-        chevronDown.classList.remove("hidden");
-    } else if (cont.classList.contains("hidden")) {
-        cont.classList.replace("hidden", "block");
-        chevronDown.classList.add("hidden");
-        chevronUp.classList.remove("hidden");
-    }
-}
+const sections = document.querySelectorAll(".hide-section");
+sections.forEach((section) => {
+    section.addEventListener("click", function (event) {
+        const cont = section.parentNode.nextElementSibling;
+        const chevronDown = section.firstElementChild;
+        const chevronUp = section.lastElementChild;
+
+        if (cont.classList.contains("block")) {
+            cont.classList.replace("block", "hidden");
+            chevronUp.classList.add("hidden");
+            chevronDown.classList.remove("hidden");
+        } else if (cont.classList.contains("hidden")) {
+            cont.classList.replace("hidden", "block");
+            chevronDown.classList.add("hidden");
+            chevronUp.classList.remove("hidden");
+        }
+    });
+});
