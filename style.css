@@ -65,6 +65,7 @@ img {
 .person-img {
     position: absolute;
     z-index: 2;
+    bottom: -10;
     transform: scale(1.2);
     transition: transform calc(var(--transform-speed) * 1.2) ease;
 }
