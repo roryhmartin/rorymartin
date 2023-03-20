@@ -71,7 +71,7 @@ img {
 
 @media screen and (max-width: 600px) {
     .person-img {
-        bottom: -100px;
+        bottom: -20px;
     }
 }
 
