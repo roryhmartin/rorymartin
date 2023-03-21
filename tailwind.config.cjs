@@ -19,6 +19,7 @@ module.exports = {
             boxShadow: {
                 "brand-shadow": "5px 5px 0px #233554",
                 "brand-shadow-dark": "5px 5px 0px #0A192F",
+                "brand-shadow-circle": "0px 10px 0px #0A192F",
                 "brand-shadow-dark-lg": "10px 10px 0px #0A192F",
                 "brand-shadow-alt": "5px 5px 0px #112240",
             },
