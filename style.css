@@ -41,8 +41,9 @@ img {
 .person-container {
     /* background-color: pink; */
     aspect-ratio: 1 /1.35; /* Height of containter */
-    display: grid;
-    align-items: end;
+    display: flex;
+
+    align-items: flex-end;
     border-radius: 0 0 100vw 100vw; /* rounds the bottom of container */
     overflow: hidden;
 
