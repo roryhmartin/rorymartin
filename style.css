@@ -46,7 +46,6 @@ img {
     justify-content: flex-end;
     border-radius: 0 0 100vw 100vw; /* rounds the bottom of container */
     overflow: hidden;
-
     transition: transform var(--transform-speed) ease;
 }
 
