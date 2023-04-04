@@ -1,554 +1,540 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Rory Martin | Web Developer</title>
-        <meta charset="UTF-8" />
-        <meta name="description" content="I am a web developer available for hire. Javascript, PHP, Tailwind and more." />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-            rel="stylesheet" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png" />
-        <link rel="manifest" href="/img/favicon/manifest.webmanifest.json" />
-        <link rel="stylesheet" href="style.css" />
-        <script src="https://kit.fontawesome.com/377eda9e36.js" crossorigin="anonymous"></script>
-    </head>
+  <head>
+    <title>Rory Martin | Web Developer</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="I am a web developer available for hire. Javascript, PHP, Tailwind and more." />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/img/favicon/manifest.webmanifest.json" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/377eda9e36.js" crossorigin="anonymous"></script>
+  </head>
 
-    <body class="bg-brand-background text-white text-sm">
-        <!-- navbar goes here  -->
-        <nav class="py-0 md:py-4">
-            <div class="max-w-6xl mx-auto px-8 z-50">
-                <div class="flex justify-between">
-                    <!-- logo -->
-                    <div class="flex">
-                        <div>
-                            <a href="#home" class="flex items-center pt-5 px-2 no-underline font-mono font-semibold uppercase">
-                                <img class="h-6" src="/img/RM.svg" alt="Stylized R Logo" srcset="" />
-                            </a>
-                        </div>
-                    </div>
+  <body class="bg-brand-background text-white text-sm">
+    <!-- navbar goes here  -->
+    <nav class="py-0 md:py-4">
+      <div class="max-w-6xl mx-auto px-8 z-50">
+        <div class="flex justify-between">
+          <!-- logo -->
+          <div class="flex">
+            <div>
+              <a href="#home" class="flex items-center pt-5 px-2 no-underline font-mono font-semibold uppercase">
+                <img class="h-6" src="/img/RM.svg" alt="Stylized R Logo" srcset="" />
+              </a>
+            </div>
+          </div>
 
-                    <!-- primary nav -->
-                    <div class="hidden md:flex mb-0 pb-0 items-center md:border-b-2 md:border-brand-purple">
-                        <a href="#experience" class="block lg:inline-block md:mt-0 pt-5 md:mr-4 no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase">
-                            <span class="text-brand-green">01.</span>Experience
-                        </a>
-                        <a href="#education" class="block lg:inline-block md:mt-0 pt-5 md:mr-4 no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase">
-                            <span class="text-brand-green">02.</span>Education
-                        </a>
-                        <a href="#projects" class="block lg:inline-block md:mt-0 pt-5 md:mr-4 no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase">
-                            <span class="text-brand-green">03.</span>Projects
-                        </a>
-                        <!-- <a href="#" class="block lg:inline-block md:mt-0 pt-5 no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase">
+          <!-- primary nav -->
+          <div class="hidden md:flex mb-0 pb-0 items-center md:border-b-2 md:border-brand-purple">
+            <a href="#experience" class="block lg:inline-block md:mt-0 pt-5 md:mr-4 no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase">
+              <span class="text-brand-green">01.</span>Experience
+            </a>
+            <a href="#education" class="block lg:inline-block md:mt-0 pt-5 md:mr-4 no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase">
+              <span class="text-brand-green">02.</span>Education
+            </a>
+            <a href="#projects" class="block lg:inline-block md:mt-0 pt-5 md:mr-4 no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase">
+              <span class="text-brand-green">03.</span>Projects
+            </a>
+            <!-- <a href="#" class="block lg:inline-block md:mt-0 pt-5 no-underline font-mono font-semibold border-b-2 border-transparent hover:border-brand-purple uppercase">
                             <span class="text-brand-green">04.</span>Open-Source
                         </a> -->
-                    </div>
+          </div>
 
-                    <!-- mobile button goes here -->
-                    <!-- TO DO: Style sandwich menu -->
-                    <div class="md:hidden flex item-center">
-                        <button aria-label="mobile-menu-button" class="mobile-menu-button">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mt-5">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
+          <!-- mobile button goes here -->
+          <!-- TO DO: Style sandwich menu -->
+          <div class="md:hidden flex item-center">
+            <button aria-label="mobile-menu-button" class="mobile-menu-button">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mt-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
+          </div>
+        </div>
 
-                <!-- mobile menu -->
-                <div class="mobile-menu hidden md:hidden bg-brand-light">
-                    <div class="flex flex-col text-center uppercase w-full divide-y divide-brand-purple">
-                        <a href="#experience" class="block py-6 px-4 hover:bg-brand-powderBlue no-underline font-mono font-semibold text-xl"><span class="text-brand-green">01.</span>Experience </a>
-                        <a href="#education" class="block py-6 px-4 hover:bg-brand-powderBlue no-underline font-mono font-semibold text-xl"><span class="text-brand-green">02.</span>Education</a>
-                        <a href="#projects" class="block py-6 px-4 hover:bg-brand-powderBlue no-underline font-mono font-semibold text-xl"><span class="text-brand-green">03.</span>Projects</a>
-                        <!-- <a href="#" class="block py-6 px-4 hover:bg-brand-powderBlue no-underline font-mono font-semibold text-xl"><span class="text-brand-green">04.</span>Open-Source</a> -->
-                    </div>
-                </div>
+        <!-- mobile menu -->
+        <div class="mobile-menu hidden md:hidden bg-brand-light">
+          <div class="flex flex-col text-center uppercase w-full divide-y divide-brand-purple">
+            <a href="#experience" class="block py-6 px-4 hover:bg-brand-powderBlue no-underline font-mono font-semibold text-xl"><span class="text-brand-green">01.</span>Experience </a>
+            <a href="#education" class="block py-6 px-4 hover:bg-brand-powderBlue no-underline font-mono font-semibold text-xl"><span class="text-brand-green">02.</span>Education</a>
+            <a href="#projects" class="block py-6 px-4 hover:bg-brand-powderBlue no-underline font-mono font-semibold text-xl"><span class="text-brand-green">03.</span>Projects</a>
+            <!-- <a href="#" class="block py-6 px-4 hover:bg-brand-powderBlue no-underline font-mono font-semibold text-xl"><span class="text-brand-green">04.</span>Open-Source</a> -->
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="flex flex-col mt-2 items-center text-base">
+      <div class="flex flex-col w-full justify-between items-center px-3 md:pt-8">
+        <div class="mt-6 md:mt-2 flex flex-col w-full max-w-2xl">
+          <!-- Name Intro -->
+          <div class="mx-auto">
+            <p id="greeting" class="inline-block font-mono font-light text-sm md:text-base text-brand-green mb-0">Hi, my name is</p>
+            <h1 class="font-semibold font-sans uppercase text-4xl md:text-5xl tracking-wider leading-none mt-0">Rory Martin</h1>
+          </div>
+          <!-- Quick info -->
+          <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
+            <li class="px-4 py-2 mr-4 my-4 md:my-auto bg-brand-dark text-brand-green shadow-brand-shadow">35 Years Old</li>
+            <li class="px-4 py-2 mr-4 my-4 md:my-auto bg-brand-dark text-brand-green shadow-brand-shadow">Looking For New Opportunities</li>
+            <li class="px-4 py-2 mr-4 my-4 md:my-auto bg-brand-dark text-brand-green shadow-brand-shadow">Located In England</li>
+          </ul>
+          <!-- Media Links -->
+          <div class="flex justify-center w-full mb-8">
+            <a
+              href="mailto:rorymartin3d@gmail.com"
+              aria-label="email-button"
+              class="flex items-center justify-center border border-white rounded-full h-10 w-10 md:h-12 md:w-12 p-1 mr-5 md:mr-10 hover:bg-brand-pink hover:scale-125 transition ease-in-out duration-300"
+              ><i class="fa-sharp fa-solid fa-envelope fa-xl"></i
+            ></a>
+            <a
+              href="https://github.com/roryhmartin"
+              aria-label="github-link-button"
+              class="flex items-center justify-center border border-white rounded-full h-10 w-10 md:h-12 md:w-12 p-1 mr-5 md:mr-10 hover:bg-brand-purple hover:scale-125 transition ease-in-out duration-300"
+              ><i class="fa-brands fa-github fa-xl"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/rory-martin-26398070/"
+              aria-label="linkedin-link-button"
+              class="flex items-center justify-center border border-white rounded-full h-10 w-10 md:h-12 md:w-12 p-1 mr-5 md:mr-5 hover:bg-brand-powderBlue hover:scale-125 transition ease-in-out duration-300"
+              ><i class="fa-brands fa-linkedin fa-xl"></i
+            ></a>
+          </div>
+          <!-- Quick Summary -->
+          <div class="flex justify-center w-full">
+            <p class="font-mono font-normal text-base text-center mx-8">
+              I'm a web developer, a lifelong learner, a 3d Artist. <br />
+              Fuelled by tea.
+            </p>
+          </div>
+          <!-- Hire me and image section -->
+          <div id="hire-me" class="relative bg-brand-light py-4 px-6 mt-28 mb-12 shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
+            <!-- Profile Image-->
+            <img
+              class="relative h-36 w-36 rounded-full mx-auto pin-t pin-x -mt-20 border-4 border-brand-green drop-shadow-img-shadow md:hidden"
+              src="/img/me-original.webp"
+              alt="Rory Martin Profile Picture" />
+
+            <div class="person sm:hidden md:block overflow-visible">
+              <div class="person-container mx-auto -mt-40 overflow-hidden">
+                <img class="person-circle border-4 border-brand-green" src="/img/me-background-color.jpg" alt="" />
+                <img class="person-img overflow-hidden" src="/img/me-no-background.webp" alt="" />
+              </div>
             </div>
-        </nav>
 
-        <section id="home" class="flex flex-col mt-2 items-center text-base">
-            <div class="flex flex-col w-full justify-between items-center px-3 md:pt-8">
-                <div class="mt-6 md:mt-2 flex flex-col w-full max-w-2xl">
-                    <!-- Name Intro -->
-                    <div class="mx-auto">
-                        <p id="greeting" class="inline-block font-mono font-light text-sm md:text-base text-brand-green mb-0">Hi, my name is</p>
-                        <h1 class="font-semibold font-sans uppercase text-4xl md:text-5xl tracking-wider leading-none mt-0">Rory Martin</h1>
-                    </div>
-                    <!-- Quick info -->
-                    <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
-                        <li class="px-4 py-2 mr-4 my-4 md:my-auto bg-brand-dark text-brand-green shadow-brand-shadow">35 Years Old</li>
-                        <li class="px-4 py-2 mr-4 my-4 md:my-auto bg-brand-dark text-brand-green shadow-brand-shadow">Looking For New Opportunities</li>
-                        <li class="px-4 py-2 mr-4 my-4 md:my-auto bg-brand-dark text-brand-green shadow-brand-shadow">Located In England</li>
-                    </ul>
-                    <!-- Media Links -->
-                    <div class="flex justify-center w-full mb-8">
-                        <a
-                            href="mailto:rorymartin3d@gmail.com"
-                            aria-label="email-button"
-                            class="flex items-center justify-center border border-white rounded-full h-10 w-10 md:h-12 md:w-12 p-1 mr-5 md:mr-10 hover:bg-brand-pink hover:scale-125 transition ease-in-out duration-300"
-                            ><i class="fa-sharp fa-solid fa-envelope fa-xl"></i
-                        ></a>
-                        <a
-                            href="https://github.com/roryhmartin"
-                            aria-label="github-link-button"
-                            class="flex items-center justify-center border border-white rounded-full h-10 w-10 md:h-12 md:w-12 p-1 mr-5 md:mr-10 hover:bg-brand-purple hover:scale-125 transition ease-in-out duration-300"
-                            ><i class="fa-brands fa-github fa-xl"></i
-                        ></a>
-                        <a
-                            href="https://www.linkedin.com/in/rory-martin-26398070/"
-                            aria-label="linkedin-link-button"
-                            class="flex items-center justify-center border border-white rounded-full h-10 w-10 md:h-12 md:w-12 p-1 mr-5 md:mr-5 hover:bg-brand-powderBlue hover:scale-125 transition ease-in-out duration-300"
-                            ><i class="fa-brands fa-linkedin fa-xl"></i
-                        ></a>
-                    </div>
-                    <!-- Quick Summary -->
-                    <div class="flex justify-center w-full">
-                        <p class="font-mono font-normal text-base text-center mx-8">
-                            I'm a web developer, a lifelong learner, a 3d Artist. <br />
-                            Fuelled by tea.
-                        </p>
-                    </div>
-                    <!-- Hire me and image section -->
-                    <div id="hire-me" class="relative bg-brand-light py-4 px-6 mt-28 mb-12 shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
-                        <!-- Profile Image-->
-                        <img
-                            class="relative h-36 w-36 rounded-full mx-auto pin-t pin-x -mt-20 border-4 border-brand-green drop-shadow-img-shadow md:hidden"
-                            src="/img/me-original.webp"
-                            alt="Rory Martin Profile Picture" />
-
-                        <div class="person sm:hidden md:block overflow-visible">
-                            <div class="person-container mx-auto -mt-40 overflow-hidden">
-                                <img class="person-circle border-4 border-brand-green" src="/img/me-background-color.jpg" alt="" />
-                                <img class="person-img overflow-hidden" src="/img/me-no-background.webp" alt="" />
-                            </div>
-                        </div>
-
-                        <h2 class="text-2xl uppercase font-mono font-extralight mt-5 mb-5 px-8 py-4">Hire Me!</h2>
-                        <div class="flex justify-center">
-                            <!-- TO DO: Change this to a modal to get in touch  -->
-                            <!-- New Button -->
-                            <a href="mailto:rorymartin3d@gmail.com">
-                                <button class="cybr-btn px-16 py-4 mb-10 text-lg drop-shadow-img-shadow font-mono uppercase tracking-widest">
-                                    <span class="cybr-span">Contact_</span>
-                                </button>
-                            </a>
-                        </div>
-
-                        <ul class="text-left ml-20">
-                            <li class="relative">
-                                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
-                                <p class="mb-5">Proficiency in programming languages such as JavaScript, HTML, CSS</p>
-                            </li>
-                            <li class="relative">
-                                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
-                                <p class="mb-5">Knowledge of web development tools such as Vue, Tailwind and Bootstrap</p>
-                            </li>
-                            <li class="relative">
-                                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
-                                <p class="mb-5">Experience with content management systems like WordPress</p>
-                            </li>
-                            <li class="relative">
-                                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
-                                <p class="mb-5">Ability to develop responsive and mobile-friendly websites and applications.</p>
-                            </li>
-                            <li class="relative">
-                                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
-                                <p class="mb-5">Strong understanding of web design principles and UX/UI best practices</p>
-                            </li>
-                            <li class="relative">
-                                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
-                                <p class="mb-5">Experience with web development frameworks such as Vue</p>
-                            </li>
-                            <li class="relative">
-                                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
-                                <p class="mb-5">Understanding of database management systems such as MySQL and MongoDB</p>
-                            </li>
-                            <li class="relative">
-                                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
-                                <p class="mb-5">Excellent problem-solving and troubleshooting skills</p>
-                            </li>
-                            <li class="relative">
-                                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
-                                <p class="mb-5">Experience with a variety of design software such as ZBrush, 3Ds Max, solid works and photoshop</p>
-                            </li>
-                            <li class="relative">
-                                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
-                                <p class="mb-5">Experience using DevTrack</p>
-                            </li>
-                            <li class="relative">
-                                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
-                                <p class="mb-5">Ability to collaborate effectively with team members and clients</p>
-                            </li>
-                            <li class="relative">
-                                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
-                                <p class="mb-5">Strong communication skills to convey technical information to non-technical stakeholders</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <h2 id="experience" class="sub-heading font-semibold font-sans text-xl md:text-3xl tracking-widest leading-none mb-12">
-                        <span class="text-brand-green font-mono">01.</span>Experience
-                    </h2>
-
-                    <!-- Employment Content -->
-                    <!-- Start of PHP School -->
-                    <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
-                        <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
-                            <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
-                                Developer <br />
-                                <a href="https://www.phpschool.io/" target="_blank"><span class="text-white">PHP School Online</span></a>
-                            </h3>
-                            <div class="flex justify-center mb-4">
-                                <a href="https://www.phpschool.io/" target="_blank"><img class="h-32" src="/img/phps-w.webp" alt="PHP School" /></a>
-                            </div>
-                            <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>December 2022 - Present</p>
-                            <div class="hide-section absolute top-4 right-4">
-                                <span class="chevron-down hidden cursor-pointer"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                                <span class="chevron-up cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                            </div>
-                        </div>
-                        <div class="text-left pt-2 block">
-                            <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
-                                PHP School is a unique open source project that is designed to help people learn to code in PHP. As a junior developer, I had the opportunity to contribute to the
-                                development of the online version of the school using JavaScript, Tailwind, and Vue. I created various components for the site, such as modals, progress trackers, and
-                                site-wide components, which enhanced the user experience and made the site more user-friendly.
-                            </p>
-
-                            <p class="mb-5 leading-loose">
-                                In addition to creating new components, I also played an integral role in fixing multiple bugs within the system. Through creative problem-solving and collaboration
-                                with the team, I was able to identify and resolve these issues, which ensured the smooth functioning of the website.
-                            </p>
-
-                            <p class="mb-5 leading-loose">
-                                One of the most rewarding aspects of working on this project was the opportunity to teach others to code. By contributing to the development of the online school, I was
-                                able to help create a resource that allows people to learn PHP in an interactive and engaging way. Through this experience, I was able to solidify my own understanding
-                                of different programming languages while simultaneously helping others to learn.
-                            </p>
-
-                            <p class="mb-5 leading-loose">
-                                Overall, working on the PHP School project was an incredibly fulfilling experience that allowed me to further develop my skills in front-end web development and
-                                collaborate with a team of skilled developers. I am grateful for the opportunity to have contributed to such an impactful open source project, and I am excited to
-                                continue to learn and grow while helping others to do the same
-                            </p>
-                            <!-- Skills Section -->
-                            <div class="">
-                                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
-                                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">HTML</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Tailwind</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">JavaScript</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">Vue</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Docker</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Code Generation</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Bug Fixing</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Designing</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of PHP School -->
-                    <!-- Start of Dial -->
-                    <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
-                        <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
-                            <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
-                                Social Media Manager <br />
-                                <a href="https://thedial.co.uk/" target="_blank"><span class="text-white">The DIal</span></a>
-                            </h3>
-                            <div class="flex justify-center mb-4">
-                                <a href="https://thedial.co.uk/" target="_blank"><img class="h-32" src="/img/dial-logo-w.svg" alt="The Dial Logo Text" /></a>
-                            </div>
-                            <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>2012 - Present</p>
-                            <div class="hide-section absolute top-4 right-4">
-                                <span class="chevron-down cursor-pointer"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                                <span class="chevron-up hidden cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                            </div>
-                        </div>
-                        <div class="text-left pt-2 hidden">
-                            <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
-                                As the social media manager responsibilities was to develop and implement the social media strategy. This involves creating content calendars, deciding on the frequency
-                                and types of posts, and planning social media campaigns.
-                            </p>
-                            <p class="mb-5 leading-loose">
-                                I am responsible for creating engaging and visually appealing content that follows a schedule while keeping up with the latest trends. I also ensure that comments,
-                                messages, and reviews are responded too promptly as engagement helps to build a strong presence with customers.
-                            </p>
-                            <p class="mb-5 leading-loose">
-                                Furthermore I help maintain our Wordpress website; implementing new tools, deciding on the content, layout, and functionality of the website.
-                            </p>
-
-                            <!-- Skills Section -->
-                            <div class="">
-                                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
-                                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Content Creation</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Scheduling</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Wordpress</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">Premiere Pro</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Community Engagement</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Photography</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Dial -->
-                    <!-- Start of Eurocom -->
-                    <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
-                        <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
-                            <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
-                                3D Artist <br />
-                                <a href="https://www.mobygames.com/company/1946/eurocom-developments-ltd/" target="_blank"><span class="text-white">Eurocom</span></a>
-                            </h3>
-                            <div class="flex justify-center mb-4">
-                                <a href="https://www.mobygames.com/company/1946/eurocom-developments-ltd/" target="_blank"
-                                    ><img class="h-32" src="/img/Eurocom.png" alt="Eurocom Logo in the shape of an e"
-                                /></a>
-                            </div>
-                            <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>2010 - 2012</p>
-                            <div class="hide-section absolute top-4 right-4">
-                                <span class="chevron-down hidden cursor-pointer"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                                <span class="chevron-up cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                            </div>
-                        </div>
-                        <div class="text-left pt-2 block">
-                            <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
-                                I started off at Eurocom as a agency hire Quality Assurance testing for Disney Games, working directly for the Disney Games Franchise manager. I would use Devtrack to
-                                identify and document bugs found within the game and once they were reported fixed, I would re-test them to ensure they did not have a knock any unforeseen knock on
-                                effects
-                            </p>
-                            <p class="mb-5 leading-loose">
-                                I moved on to be a 3d Artist until the studio unfortunately closed. As a 3d Artist I would create 3d models of objects and characters using 3D Studio max, Maya and
-                                ZBrush. I would then go on to create textures inside illustrator or photoshop for the models and bring them all inside the game engine.
-                            </p>
-
-                            <!-- Skills Section -->
-                            <div class="">
-                                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
-                                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">3D Modelling</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Anatomy</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Texturing</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">Sculpting</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Unreal Engine</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">3D Studio Max</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">ZBrush</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Photoshop</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">illustrator</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Testing</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Quality Assurance</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">DevTrack</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Eurocom -->
-                    <!-- End Of Experience Section -->
-                    <!-- Start Education Section -->
-                    <h2 id="education" class="sub-heading font-semibold font-sans text-xl md:text-3xl tracking-widest leading-none mb-12">
-                        <span class="text-brand-green font-mono">02.</span>Education
-                    </h2>
-                    <!-- End Education Section -->
-                    <!-- Start of University -->
-                    <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
-                        <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
-                            <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
-                                University <br />
-                                <a href="https://www.staffs.ac.uk/" target="_blank"><span class="text-white">BSc Upper (Second-Class Honours) Computer Games Design</span></a>
-                            </h3>
-                            <div class="flex justify-center mb-4">
-                                <a href="https://www.staffs.ac.uk/" target="_blank"><img class="h-32" src="/img/stafford-uni.webp" alt="Stafford University" /></a>
-                            </div>
-                            <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>2007-2010</p>
-                            <div class="hide-section absolute top-4 right-4">
-                                <span class="chevron-down cursor-pointer hidden"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                                <span class="chevron-up cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                            </div>
-                        </div>
-                        <div class="text-left pt-2 block">
-                            <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
-                                Gained a comprehensive understanding of the processes involved in designing and developing computer games. During the course of the program, I gained proficiency in a
-                                range of skills, including 3D sculpting, User Interfaces, Environment design, and game engines.
-                            </p>
-
-                            <p class="mb-5 leading-loose">
-                                This course was a continuation of my college education where I was awarded the best game engineer on the course and was offered a job to help teach the course.
-                            </p>
-
-                            <!-- Skills Section -->
-                            <div class="">
-                                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
-                                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Best Game Engineer</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">C#</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Zbrush</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">Sculpting</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Unreal Engine</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">3D Studio Max</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Texturing</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Photoshop</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">illustrator</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">UI</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Game Design</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Motion Capture</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of University -->
-                    <!-- Start of PLC -->
-                    <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
-                        <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
-                            <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
-                                College <br />
-                                <a href="https://learntechnique.com/plc-training-courses/city-guilds-plc/" target="_blank"
-                                    ><span class="text-white">Programmable Logic Controllers - EAL Level 3</span></a
-                                >
-                            </h3>
-                            <div class="flex justify-center mb-4">
-                                <a href="https://learntechnique.com/plc-training-courses/city-guilds-plc/" target="_blank"><img class="h-32" src="/img/city-guilds.png" alt="City & Guilds Logo" /></a>
-                            </div>
-                            <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>2021</p>
-                            <div class="hide-section absolute top-4 right-4">
-                                <span class="chevron-down cursor-pointer"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                                <span class="chevron-up hidden cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                            </div>
-                        </div>
-                        <div class="text-left pt-2 hidden">
-                            <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
-                                comprehensive practical training in ladder logic developing the skills to design, program, operate, and troubleshoot Programmable Logic Controllers (PLCs).
-                            </p>
-
-                            <p class="mb-5 leading-loose">
-                                Skills cover PLC programming languages (using Allen Bradley, Siemens), ladder logic, input/output (I/O) modules, communication protocols, human-machine interface (HMI)
-                                design, and troubleshooting techniques.
-                            </p>
-
-                            <!-- Skills Section -->
-                            <div class="">
-                                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
-                                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Ladder Logic</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Siemens</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Allen Bradley</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">I/O</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">PLC program development</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Troubleshooting</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of PLC -->
-                    <!-- Start PROJECTS Section -->
-                    <h2 id="projects" class="sub-heading font-semibold font-sans text-xl md:text-3xl tracking-widest leading-none mb-12">
-                        <span class="text-brand-green font-mono">03.</span>Projects
-                    </h2>
-                    <!-- Start of Website project -->
-                    <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
-                        <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
-                            <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
-                                My Homepage <br />
-                                <a href="#" target="_blank"><span class="text-white"></span></a>
-                            </h3>
-                            <div class="flex justify-center mb-4">
-                                <a href="#" target="_blank"><img class="h-32" src="/img/RM.svg" alt="Stylized R Logo" /></a>
-                            </div>
-                            <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>2023 - Present</p>
-                            <div class="hide-section absolute top-4 right-4">
-                                <span class="chevron-down cursor-pointer hidden"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                                <span class="chevron-up cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                            </div>
-                        </div>
-                        <div class="text-left pt-2 block">
-                            <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
-                                I have created this website in order to promote myself and to use a platform for my portfolio. I took the opportunity to further learn Tailwind try and put some design
-                                skills to work.
-                            </p>
-
-                            <p class="mb-5 leading-loose">The aim is to create a clean, stylish website for show off me.</p>
-
-                            <!-- Skills Section -->
-                            <div class="">
-                                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
-                                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">HTML</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">CSS</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Tailwind</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">Javascript</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Figma</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Photoshop</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Website Project -->
-                    <!-- Start of 3d project -->
-                    <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
-                        <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
-                            <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
-                                3D Art <br />
-                                <a href="https://www.artstation.com/rorymartin" target="_blank"><span class="text-white"></span></a>
-                            </h3>
-                            <div class="flex justify-center mb-4">
-                                <a href="https://www.artstation.com/rorymartin" target="_blank" class="border-x-gray-100"><img class="sm:h-32 md:h-48" src="/img/3d-banner.webp" alt="ArtStation" /></a>
-                            </div>
-                            <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>2007 - Present</p>
-                            <div class="hide-section absolute top-4 right-4">
-                                <span class="chevron-down cursor-pointer hidden"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                                <span class="chevron-up cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
-                            </div>
-                        </div>
-                        <div class="text-left pt-2 block">
-                            <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
-                                I have always been interested in digital art and the advancements of the medium. I like to create it as a way to unwind now, and try to create more fantasy based
-                                concepts. It's another way to keep my creative side going.
-                            </p>
-
-                            <!-- Skills Section -->
-                            <div class="">
-                                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
-                                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">3D Modelling</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Anatomy</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Texturing</li>
-                                    <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">Sculpting</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">3D Studio Max</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">ZBrush</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Photoshop</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">illustrator</li>
-                                    <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Blender</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of 3d Project -->
-                </div>
+            <h2 class="text-2xl uppercase font-mono font-extralight mt-5 mb-5 px-8 py-4">Hire Me!</h2>
+            <div class="flex justify-center">
+              <!-- TO DO: Change this to a modal to get in touch  -->
+              <!-- New Button -->
+              <a href="mailto:rorymartin3d@gmail.com">
+                <button class="cybr-btn px-16 py-4 mb-10 text-lg drop-shadow-img-shadow font-mono uppercase tracking-widest">
+                  <span class="cybr-span">Contact_</span>
+                </button>
+              </a>
             </div>
-        </section>
-        <footer class="bg-brand-light py-16 md:py-24 px-8 flex flex-col items-center">
-            <p class="mb-5 italic">'If more of us valued food and cheer and song above hoarded gold, it would be a merrier world'</p>
-            <!-- Media Links -->
-            <div class="flex justify-center w-full">
-                <a
-                    href="mailto:rorymartin3d@gmail.com"
-                    class="flex items-center justify-center border border-white rounded-full h-10 w-10 md:h-12 md:w-12 p-1 mr-5 md:mr-10 hover:bg-brand-pink hover:scale-125 transition ease-in-out duration-300"
-                    ><i class="fa-sharp fa-solid fa-envelope fa-xl"></i
-                ></a>
-                <a
-                    href="https://github.com/roryhmartin"
-                    class="flex items-center justify-center border border-white rounded-full h-10 w-10 md:h-12 md:w-12 p-1 mr-5 md:mr-10 hover:bg-brand-purple hover:scale-125 transition ease-in-out duration-300"
-                    ><i class="fa-brands fa-github fa-xl"></i
-                ></a>
-                <a
-                    href="https://www.linkedin.com/in/rory-martin-26398070/"
-                    class="flex items-center justify-center border border-white rounded-full h-10 w-10 md:h-12 md:w-12 p-1 mr-5 md:mr-5 hover:bg-brand-powderBlue hover:scale-125 transition ease-in-out duration-300"
-                    ><i class="fa-brands fa-linkedin fa-xl"></i
-                ></a>
+
+            <ul class="text-left ml-20">
+              <li class="relative">
+                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
+                <p class="mb-5">Proficiency in programming languages such as JavaScript, HTML, CSS</p>
+              </li>
+              <li class="relative">
+                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
+                <p class="mb-5">Knowledge of web development tools such as Vue, Tailwind and Bootstrap</p>
+              </li>
+              <li class="relative">
+                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
+                <p class="mb-5">Experience with content management systems like WordPress</p>
+              </li>
+              <li class="relative">
+                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
+                <p class="mb-5">Ability to develop responsive and mobile-friendly websites and applications.</p>
+              </li>
+              <li class="relative">
+                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
+                <p class="mb-5">Strong understanding of web design principles and UX/UI best practices</p>
+              </li>
+              <li class="relative">
+                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
+                <p class="mb-5">Experience with web development frameworks such as Vue</p>
+              </li>
+              <li class="relative">
+                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
+                <p class="mb-5">Understanding of database management systems such as MySQL and MongoDB</p>
+              </li>
+              <li class="relative">
+                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
+                <p class="mb-5">Excellent problem-solving and troubleshooting skills</p>
+              </li>
+              <li class="relative">
+                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
+                <p class="mb-5">Experience with a variety of design software such as ZBrush, 3Ds Max, solid works and photoshop</p>
+              </li>
+              <li class="relative">
+                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
+                <p class="mb-5">Experience using DevTrack</p>
+              </li>
+              <li class="relative">
+                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
+                <p class="mb-5">Ability to collaborate effectively with team members and clients</p>
+              </li>
+              <li class="relative">
+                <span class="absolute w-2 -left-14"><i class="fa-regular fa-circle-check fa-xl text-brand-purple"></i></span>
+                <p class="mb-5">Strong communication skills to convey technical information to non-technical stakeholders</p>
+              </li>
+            </ul>
+          </div>
+          <h2 id="experience" class="sub-heading font-semibold font-sans text-xl md:text-3xl tracking-widest leading-none mb-12"><span class="text-brand-green font-mono">01.</span>Experience</h2>
+
+          <!-- Employment Content -->
+          <!-- Start of PHP School -->
+          <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
+            <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
+              <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
+                Developer <br />
+                <a href="https://www.phpschool.io/" target="_blank"><span class="text-white">PHP School Online</span></a>
+              </h3>
+              <div class="flex justify-center mb-4">
+                <a href="https://www.phpschool.io/" target="_blank"><img class="h-32" src="/img/phps-w.webp" alt="PHP School" /></a>
+              </div>
+              <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>December 2022 - Present</p>
+              <div class="hide-section absolute top-4 right-4">
+                <span class="chevron-down hidden cursor-pointer"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+                <span class="chevron-up cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+              </div>
             </div>
-        </footer>
-        <script type="module" src="main.js"></script>
-    </body>
+            <div class="text-left pt-2 block">
+              <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
+                PHP School is a unique open source project that is designed to help people learn to code in PHP. As a junior developer, I had the opportunity to contribute to the development of the
+                online version of the school using JavaScript, Tailwind, and Vue. I created various components for the site, such as modals, progress trackers, and site-wide components, which enhanced
+                the user experience and made the site more user-friendly.
+              </p>
+
+              <p class="mb-5 leading-loose">
+                In addition to creating new components, I also played an integral role in fixing multiple bugs within the system. Through creative problem-solving and collaboration with the team, I
+                was able to identify and resolve these issues, which ensured the smooth functioning of the website.
+              </p>
+
+              <p class="mb-5 leading-loose">
+                One of the most rewarding aspects of working on this project was the opportunity to teach others to code. By contributing to the development of the online school, I was able to help
+                create a resource that allows people to learn PHP in an interactive and engaging way. Through this experience, I was able to solidify my own understanding of different programming
+                languages while simultaneously helping others to learn.
+              </p>
+
+              <p class="mb-5 leading-loose">
+                Overall, working on the PHP School project was an incredibly fulfilling experience that allowed me to further develop my skills in front-end web development and collaborate with a team
+                of skilled developers. I am grateful for the opportunity to have contributed to such an impactful open source project, and I am excited to continue to learn and grow while helping
+                others to do the same
+              </p>
+              <!-- Skills Section -->
+              <div class="">
+                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
+                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">HTML</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Tailwind</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">JavaScript</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">Vue</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Docker</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Code Generation</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Bug Fixing</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Designing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End of PHP School -->
+          <!-- Start of Dial -->
+          <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
+            <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
+              <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
+                Social Media Manager <br />
+                <a href="https://thedial.co.uk/" target="_blank"><span class="text-white">The DIal</span></a>
+              </h3>
+              <div class="flex justify-center mb-4">
+                <a href="https://thedial.co.uk/" target="_blank"><img class="h-32" src="/img/dial-logo-w.svg" alt="The Dial Logo Text" /></a>
+              </div>
+              <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>2012 - Present</p>
+              <div class="hide-section absolute top-4 right-4">
+                <span class="chevron-down cursor-pointer"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+                <span class="chevron-up hidden cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+              </div>
+            </div>
+            <div class="text-left pt-2 hidden">
+              <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
+                As the social media manager responsibilities was to develop and implement the social media strategy. This involves creating content calendars, deciding on the frequency and types of
+                posts, and planning social media campaigns.
+              </p>
+              <p class="mb-5 leading-loose">
+                I am responsible for creating engaging and visually appealing content that follows a schedule while keeping up with the latest trends. I also ensure that comments, messages, and
+                reviews are responded too promptly as engagement helps to build a strong presence with customers.
+              </p>
+              <p class="mb-5 leading-loose">Furthermore I help maintain our Wordpress website; implementing new tools, deciding on the content, layout, and functionality of the website.</p>
+
+              <!-- Skills Section -->
+              <div class="">
+                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
+                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Content Creation</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Scheduling</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Wordpress</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">Premiere Pro</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Community Engagement</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Photography</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End of Dial -->
+          <!-- Start of Eurocom -->
+          <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
+            <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
+              <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
+                3D Artist <br />
+                <a href="https://www.mobygames.com/company/1946/eurocom-developments-ltd/" target="_blank"><span class="text-white">Eurocom</span></a>
+              </h3>
+              <div class="flex justify-center mb-4">
+                <a href="https://www.mobygames.com/company/1946/eurocom-developments-ltd/" target="_blank"><img class="h-32" src="/img/Eurocom.png" alt="Eurocom Logo in the shape of an e" /></a>
+              </div>
+              <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>2010 - 2012</p>
+              <div class="hide-section absolute top-4 right-4">
+                <span class="chevron-down hidden cursor-pointer"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+                <span class="chevron-up cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+              </div>
+            </div>
+            <div class="text-left pt-2 block">
+              <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
+                I started off at Eurocom as a agency hire; Quality Assurance testing for Disney Games, working directly for the Disney Games Franchise manager. I would use Devtrack to identify and
+                document bugs found within the game and once they were reported fixed, I would re-test them to ensure they did not have a knock any unforeseen knock on effects
+              </p>
+              <p class="mb-5 leading-loose">
+                I moved on to be a 3d Artist until the studio unfortunately closed. As a 3d Artist I would create 3d models of objects and characters using 3D Studio max, Maya and ZBrush. I would then
+                go on to create textures inside illustrator or photoshop for the models and bring them all inside the game engine.
+              </p>
+
+              <!-- Skills Section -->
+              <div class="">
+                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
+                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">3D Modelling</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Anatomy</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Texturing</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">Sculpting</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Unreal Engine</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">3D Studio Max</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">ZBrush</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Photoshop</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">illustrator</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Testing</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Quality Assurance</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">DevTrack</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End of Eurocom -->
+          <!-- End Of Experience Section -->
+          <!-- Start Education Section -->
+          <h2 id="education" class="sub-heading font-semibold font-sans text-xl md:text-3xl tracking-widest leading-none mb-12"><span class="text-brand-green font-mono">02.</span>Education</h2>
+          <!-- End Education Section -->
+          <!-- Start of University -->
+          <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
+            <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
+              <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
+                University <br />
+                <a href="https://www.staffs.ac.uk/" target="_blank"><span class="text-white">BSc Upper (Second-Class Honours) Computer Games Design</span></a>
+              </h3>
+              <div class="flex justify-center mb-4">
+                <a href="https://www.staffs.ac.uk/" target="_blank"><img class="h-32" src="/img/stafford-uni.webp" alt="Stafford University" /></a>
+              </div>
+              <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>2007-2010</p>
+              <div class="hide-section absolute top-4 right-4">
+                <span class="chevron-down cursor-pointer hidden"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+                <span class="chevron-up cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+              </div>
+            </div>
+            <div class="text-left pt-2 block">
+              <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
+                Gained a comprehensive understanding of the processes involved in designing and developing computer games. During the course of the program, I gained proficiency in a range of skills,
+                including 3D sculpting, User Interfaces, Environment design, and game engines.
+              </p>
+
+              <p class="mb-5 leading-loose">
+                This course was a continuation of my college education where I was awarded the best game engineer on the course and was offered a job to help teach the course.
+              </p>
+
+              <!-- Skills Section -->
+              <div class="">
+                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
+                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Best Game Engineer</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">C#</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Zbrush</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">Sculpting</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Unreal Engine</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">3D Studio Max</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Texturing</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Photoshop</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">illustrator</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">UI</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Game Design</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Motion Capture</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End of University -->
+          <!-- Start of PLC -->
+          <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
+            <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
+              <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
+                College <br />
+                <a href="https://learntechnique.com/plc-training-courses/city-guilds-plc/" target="_blank"><span class="text-white">Programmable Logic Controllers - EAL Level 3</span></a>
+              </h3>
+              <div class="flex justify-center mb-4">
+                <a href="https://learntechnique.com/plc-training-courses/city-guilds-plc/" target="_blank"><img class="h-32" src="/img/city-guilds.png" alt="City & Guilds Logo" /></a>
+              </div>
+              <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>2021</p>
+              <div class="hide-section absolute top-4 right-4">
+                <span class="chevron-down cursor-pointer"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+                <span class="chevron-up hidden cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+              </div>
+            </div>
+            <div class="text-left pt-2 hidden">
+              <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
+                comprehensive practical training in ladder logic developing the skills to design, program, operate, and troubleshoot Programmable Logic Controllers (PLCs).
+              </p>
+
+              <p class="mb-5 leading-loose">
+                Skills cover PLC programming languages (using Allen Bradley, Siemens), ladder logic, input/output (I/O) modules, communication protocols, human-machine interface (HMI) design, and
+                troubleshooting techniques.
+              </p>
+
+              <!-- Skills Section -->
+              <div class="">
+                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
+                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Ladder Logic</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Siemens</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Allen Bradley</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">I/O</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">PLC program development</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Troubleshooting</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End of PLC -->
+          <!-- Start PROJECTS Section -->
+          <h2 id="projects" class="sub-heading font-semibold font-sans text-xl md:text-3xl tracking-widest leading-none mb-12"><span class="text-brand-green font-mono">03.</span>Projects</h2>
+          <!-- Start of Website project -->
+          <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
+            <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
+              <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
+                My Homepage <br />
+                <a href="#" target="_blank"><span class="text-white"></span></a>
+              </h3>
+              <div class="flex justify-center mb-4">
+                <a href="#" target="_blank"><img class="h-32" src="/img/RM.svg" alt="Stylized R Logo" /></a>
+              </div>
+              <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>2023 - Present</p>
+              <div class="hide-section absolute top-4 right-4">
+                <span class="chevron-down cursor-pointer hidden"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+                <span class="chevron-up cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+              </div>
+            </div>
+            <div class="text-left pt-2 block">
+              <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
+                I have created this website in order to promote myself and to use a platform for my portfolio. I took the opportunity to further learn Tailwind try and put some design skills to work.
+              </p>
+
+              <p class="mb-5 leading-loose">The aim is to create a clean, stylish website to promote me.</p>
+
+              <!-- Skills Section -->
+              <div class="">
+                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
+                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">HTML</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">CSS</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Tailwind</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">Javascript</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Figma</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Photoshop</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End of Website Project -->
+          <!-- Start of 3d project -->
+          <div id="employment" class="relative bg-brand-light py-4 px-6 mb-12 w-full shadow-brand-shadow-dark-lg text-center border-2 border-brand-green">
+            <div class="bg-brand-light flex flex-col justify-center relative -mx-6 -mt-4 mb-4">
+              <h3 class="uppercase font-semibold text-center text-brand-green mt-6 mb-4 text-base">
+                3D Art <br />
+                <a href="https://www.artstation.com/rorymartin" target="_blank"><span class="text-white"></span></a>
+              </h3>
+              <div class="flex justify-center mb-4">
+                <a href="https://www.artstation.com/rorymartin" target="_blank" class="border-x-gray-100"><img class="sm:h-32 md:h-48" src="/img/3d-banner.webp" alt="ArtStation" /></a>
+              </div>
+              <p class="font-semibold text-gray-300 text-sm text-center leading-tigh"><i class="fa-regular fa-calendar-days mr-2 fa-lg"></i>2007 - Present</p>
+              <div class="hide-section absolute top-4 right-4">
+                <span class="chevron-down cursor-pointer hidden"><i class="fa-solid fa-angles-down border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+                <span class="chevron-up cursor-pointer"><i class="fa-solid fa-angles-up border-2 border-brand-pink px-2 py-1 shadow-brand-shadow-dark"></i></span>
+              </div>
+            </div>
+            <div class="text-left pt-2 block">
+              <p class="mb-5 leading-loose border-t-2 border-brand-purple pt-5">
+                I have always been interested in digital art and the advancements of the medium. I like to create it as a way to unwind now, and try to create more fantasy based concepts. It's another
+                way to keep my creative side going.
+              </p>
+
+              <!-- Skills Section -->
+              <div class="">
+                <p class="text-center uppercase font-semibold border-t-2 border-brand-purple pt-5">Skills</p>
+                <ul class="flex flex-wrap justify-center text-xs font-light uppercase tracking-wider font-mono mt-6 md:mt-8 mb-10 mx-8 align-middle">
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">3D Modelling</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Anatomy</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Texturing</li>
+                  <li class="px-4 py-2 mr-4 my-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow">Sculpting</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">3D Studio Max</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">ZBrush</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Photoshop</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">illustrator</li>
+                  <li class="px-4 py-2 mr-4 mt-1 md:mb-2 bg-brand-dark text-brand-green shadow-brand-shadow-alt">Blender</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End of 3d Project -->
+        </div>
+      </div>
+    </section>
+    <footer class="bg-brand-light py-16 md:py-24 px-8 flex flex-col items-center">
+      <p class="mb-5 italic">'If more of us valued food and cheer and song above hoarded gold, it would be a merrier world'</p>
+      <!-- Media Links -->
+      <div class="flex justify-center w-full">
+        <a
+          href="mailto:rorymartin3d@gmail.com"
+          class="flex items-center justify-center border border-white rounded-full h-10 w-10 md:h-12 md:w-12 p-1 mr-5 md:mr-10 hover:bg-brand-pink hover:scale-125 transition ease-in-out duration-300"
+          ><i class="fa-sharp fa-solid fa-envelope fa-xl"></i
+        ></a>
+        <a
+          href="https://github.com/roryhmartin"
+          class="flex items-center justify-center border border-white rounded-full h-10 w-10 md:h-12 md:w-12 p-1 mr-5 md:mr-10 hover:bg-brand-purple hover:scale-125 transition ease-in-out duration-300"
+          ><i class="fa-brands fa-github fa-xl"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/rory-martin-26398070/"
+          class="flex items-center justify-center border border-white rounded-full h-10 w-10 md:h-12 md:w-12 p-1 mr-5 md:mr-5 hover:bg-brand-powderBlue hover:scale-125 transition ease-in-out duration-300"
+          ><i class="fa-brands fa-linkedin fa-xl"></i
+        ></a>
+      </div>
+    </footer>
+    <script type="module" src="main.js"></script>
+  </body>
 </html>
